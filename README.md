@@ -6,7 +6,7 @@ Shown below is an example of how to configure the remote module.
 
 ```hcl
 module "integration" {
-    source = "git::https://github.com/GenesysCloudDevOps/public-api-data-actions-integration-module.git?ref=main"
+    source = "git::https://github.com/GenesysCloudDevOps/public-api-data-actions-integration-module.git?ref=v1.0.0"
 
     integration_name                = "GC Data Actions Integration Name"
     integration_creds_client_id     = "<client ID>"
